@@ -10,8 +10,8 @@ import { useQuery } from 'convex/react';
 import { api } from '@/convex/_generated/api';
 import { useRouter } from 'next/navigation';
 import LoaderSpinner from './LoaderSpinner';
-import { useAudio } from '@/providers/AudioProvider';
 import { cn } from '@/lib/utils';
+import { useAudio } from '@/app/providers/AudioProvider';
 
 const RightSidebar = () => {
   const { user } = useUser();
