@@ -5,9 +5,9 @@ import { useEffect, useRef, useState } from "react";
 
 import { cn } from "@/lib/utils";
 
-import { Progress } from "./ui/progress";
 import { formatTime } from "@/lib/formatTime";
 import { useAudio } from "@/app/providers/AudioProvider";
+import { Progress } from "./ui/progress";
 
 const PodcastPlayer = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
