@@ -4,7 +4,7 @@ import "./globals.css";
 import ConvexClerkProvider from "./providers/ConvexcClerkProvider";
 import AudioProvider from "./providers/AudioProvider";
 
-const manrop = Manrope({ subsets: ["latin"] });
+const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Podcastr",
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}></body>
+      <body className={manrope.className}></body>
       <ConvexClerkProvider>
         <AudioProvider>
 
